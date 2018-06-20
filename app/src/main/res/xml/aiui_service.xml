@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voice-interaction-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sessionService="com.nq.newvoiceassistant.service.AIUISessionService"
+    android:recognitionService="com.nq.newvoiceassistant.service.AIUIService"
+    android:supportsAssist="true" />
