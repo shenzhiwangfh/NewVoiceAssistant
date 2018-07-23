@@ -8,9 +8,6 @@ import android.util.Log;
 public class AIUISessionService extends VoiceInteractionSessionService {
     @Override
     public VoiceInteractionSession onNewSession(Bundle args) {
-
-        Log.e("NewVoiceAssist", "AIUISessionService/onNewSession");
-
         return new AIUISession(this);
     }
 }
